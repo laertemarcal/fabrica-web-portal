@@ -57,6 +57,5 @@
   content: "\e002";
 }
 .icon-windows-phone:before {
-    content: icon;
-    icon: url(win-phone.png);
+    content: url(wp-store-badges/10x10/windows-phone-icon.png);
 }
