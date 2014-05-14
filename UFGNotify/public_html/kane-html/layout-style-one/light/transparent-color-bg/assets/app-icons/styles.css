@@ -56,3 +56,7 @@
 .icon-ionicons-2:before {
   content: "\e002";
 }
+.icon-windows-phone:before {
+    content: icon;
+    icon: url(win-phone.png);
+}
