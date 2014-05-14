@@ -182,8 +182,8 @@ h5 {
     border: none;
     padding: 16px 25px 16px 25px;
     margin: 5px;
-    -webkit-transition: all ease 0.25s;
-            transition: all ease 0.25s;
+    -webkit-transition: all ease 1s;
+            transition: all ease 1s;
 }
 
 .standard-button:hover,
