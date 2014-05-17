@@ -142,7 +142,7 @@ h2 {
 
 h1 {
     font-size: 3.75rem;
-    line-height: 4.688rem;
+    /* line-height: 4.688rem; */
 }
 
 h2 {
@@ -335,18 +335,20 @@ header .only-logo .navbar {
 
 header .only-logo .navbar .navbar-header {
     float: none;
+    padding-top: 50px;
 }
 
 /* INTRO */
 
 header .intro-section {
     margin: auto;
-    padding-top: 15%;
 }
 
 header .intro-section .intro {
     color: #ffffff;
-    margin-bottom: 36px;
+    /* margin-bottom: 36px; */
+    margin-bottom: 50px;
+    padding-top: 60px;
 }
 
 header .intro-section h5 {

@@ -50,7 +50,7 @@ $('.main-navigation a').on('click', function(){
 
 
 /* NAVIGATION VISIBLE ON SCROLL */
-
+//
 //$(document).ready(function () {
 //    mainNav();
 //});
