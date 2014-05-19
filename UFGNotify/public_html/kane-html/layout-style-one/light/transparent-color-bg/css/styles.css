@@ -49,7 +49,7 @@ body {
 
 a {
     -webkit-transition: all ease 0.25s;
-            transition: all ease 0.25s;
+    transition: all ease 0.25s;
 }
 
 a:hover {
@@ -69,7 +69,7 @@ a:hover {
 *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 ul,
@@ -106,7 +106,7 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
-            background-size: cover;
+    background-size: cover;
     margin: -20px 0 0 -20px;
 }
 
@@ -125,7 +125,7 @@ li {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
- 
+
     @font-face {
         font-family: 'Lane';
         src: url('../fonts/lanenar_Lane.svg#Lane') format('svg');
@@ -176,14 +176,14 @@ h5 {
     font-size: 18px;
     font-weight: 400 !important;
     border-radius: 4px !important;
-    text-shadow: 0 !important;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 1) !important; /*default 0*/
     color: #ffffff;
     min-width: 150px;
     border: none;
     padding: 16px 25px 16px 25px;
     margin: 5px;
     -webkit-transition: all ease 0.5s;
-            
+    
     transition: all ease 0.5s;
 }
 
@@ -210,6 +210,7 @@ h5 {
 
 .dark-text {
     color: #272727;
+    text-shadow: 5px 3px 7px rgba(0, 0, 0, 0.3);
 }
 
 .grey-bg {
@@ -275,9 +276,9 @@ h5 {
 -----------------------------------------*/
 
 header {
-    background: url(../images/ufg-bg.jpg) no-repeat center top fixed;
+    background: url(../images/ufg-verde.jpg) no-repeat center top fixed;
     -webkit-background-size: cover;
-            background-size: cover;
+    background-size: cover;
 }
 
 header .color-overlay {
@@ -292,32 +293,32 @@ header .full-screen {
 /* TOP BAR WITH NAVIGATION */
 
 .sticky-navigation {
-  min-height: 60px;
-  background: #FFFFFF;
-  border: none;
-  padding: 0 !important;
-  margin-bottom: 0 !important;
-  -webkit-backface-visibility: hidden;
-  -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
-          box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+    min-height: 60px;
+    background: #FFFFFF;
+    border: none;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    -webkit-backface-visibility: hidden;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
 }
 
 .sticky-navigation .navbar-header img {
-  max-height: 30px;
-  -webkit-backface-visibility: hidden;
+    max-height: 30px;
+    -webkit-backface-visibility: hidden;
 }
 
 .sticky-navigation .main-navigation .current a {
-  color: #000000 !important;
-  position: relative;
-  outline: none;
+    color: #000000 !important;
+    position: relative;
+    outline: none;
 }
 
 .sticky-navigation .main-navigation li a {
-  line-height: 30px;
-  font-weight: 400;
-  font-size: 13px;
-  text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
 }
 
 .sticky-navigation .main-navigation li a:hover {
@@ -325,8 +326,8 @@ header .full-screen {
 }
 
 .navbar-inverse .navbar-toggle {
-border-color: #313131;
-background: #313131;
+    border-color: #313131;
+    background: #313131;
 }
 
 header .only-logo .navbar {
@@ -336,18 +337,20 @@ header .only-logo .navbar {
 
 header .only-logo .navbar .navbar-header {
     float: none;
-    padding-top: 50px;
+    padding-top: 70px;
+    -webkit-filter: drop-shadow(1px 1px 0px #222); 
+    filter: drop-shadow(1px 1px 0px #222);
 }
 
 /* INTRO */
 
 header .intro-section {
     margin: auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 }
 
 header .intro-section .intro {
     color: #ffffff;
-    /* margin-bottom: 36px; */
     margin-bottom: 130px;
     padding-top: 20px;
 }
@@ -410,10 +413,10 @@ header .intro-section .buttons {
     font-size: 18px;
     text-align: center;
     -webkit-transition: all ease-in 0.25s;
-            transition: all ease-in 0.25s;
+    transition: all ease-in 0.25s;
     -webkit-background-clip: padding-box;
-           -moz-background-clip: padding;
-            background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
 }
 
 .features .phone-image {
@@ -480,10 +483,11 @@ header .intro-section .buttons {
 -----------------------------------------*/
 
 .testimonials {
-    background: url(../images/bg-2.jpg) no-repeat center fixed;
+    background: url(../images/ufg-verde.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
-            background-size: cover;
+    background-size: cover;
     color: #ffffff;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 1);
 }
 
 .testimonials .color-overlay {
@@ -500,7 +504,7 @@ header .intro-section .buttons {
     font-size: 24px;
     border: 2px solid transparent;
     -webkit-box-shadow: 0px 0px 0px 2px #ffffff;
-            box-shadow: 0px 0px 0px 2px #ffffff;
+    box-shadow: 0px 0px 0px 2px #ffffff;
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -540,7 +544,7 @@ header .intro-section .buttons {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-            user-select: none;
+    user-select: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -583,7 +587,7 @@ header .intro-section .buttons {
     margin: 13px;
     border-radius: 4px;
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     display: block;
 }
 
@@ -598,10 +602,11 @@ header .intro-section .buttons {
 -----------------------------------------*/
 
 .download {
-    background: url('../images/bg-3.jpg') no-repeat center fixed;
+    background: url('../images/ufg-micos.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
-            background-size: cover;
+    background-size: cover;
     color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 .download .color-overlay {
@@ -622,7 +627,7 @@ header .intro-section .buttons {
     padding-left: 20px;
     width: 320px;
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     background: #FFF;
     border: 2px solid #FFF;
 }
@@ -663,7 +668,7 @@ footer .contact-box .contact-button {
     margin-top: -40px;
     background: #ffffff;
     -webkit-box-shadow: 0px 0px 0px 3px #ffffff;
-            box-shadow: 0px 0px 0px 3px #ffffff;
+    box-shadow: 0px 0px 0px 3px #ffffff;
     -webkit-backface-visibility: hidden;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
@@ -689,14 +694,14 @@ footer .contact-box .expanded-contact-form .input-box {
     margin-top: 10px;
     height: 50px;
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 footer .contact-box .expanded-contact-form .textarea-box {
     margin-top: 20px;
     margin-bottom: 20px;
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 footer .contact-box .expanded-contact-form .textarea-box:active {
@@ -719,13 +724,18 @@ footer .social-icons li a {
     color: #c2c2c2;
 }
 
+.responsive-img {
+    -webkit-filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.125));
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.125));
+}
+
 footer .copyright {
     color: #808080;
     padding-top: 10px;
     margin-bottom: 50px;
 }
 .footer {
-        height: 80px;
+    height: 80px;
     width: 80px;
     border-radius: 50%;
     margin: auto;
