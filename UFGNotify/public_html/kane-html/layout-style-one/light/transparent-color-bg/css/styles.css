@@ -183,7 +183,7 @@ h5 {
     padding: 16px 25px 16px 25px;
     margin: 5px;
     -webkit-transition: all ease 0.5s;
-    
+
     transition: all ease 0.5s;
 }
 
@@ -368,7 +368,7 @@ header .intro-section .buttons {
 -----------------------------------------*/
 
 .features {
-    /* padding-top: 80px; */
+    padding-top: 20px;
     padding-bottom: 30px;
     background: #ffffff;
 }
@@ -435,8 +435,8 @@ header .intro-section .buttons {
 -----------------------------------------*/
 
 .app-brief {
-    padding-top: 90px;
-    padding-bottom: 60px;
+    padding-top: 110px;
+    padding-bottom: 110px;
 }
 
 .app-brief h2 {
@@ -577,7 +577,7 @@ header .intro-section .buttons {
 -----------------------------------------*/
 
 .screenshots {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 120px;
 }
 
@@ -615,7 +615,7 @@ header .intro-section .buttons {
 }
 
 .download .download-container {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 .download .subscription-form-container {
@@ -643,8 +643,20 @@ header .intro-section .buttons {
     display: none;
 }
 
+.download .store-badge {
+    padding: 0px 0px 0px 0px;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 0.5;
+}
+
+.download .store-badge:hover {
+    padding: 0px 150px 0px 150px;
+    opacity: 1;
+}
+
 .download h2 {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 
