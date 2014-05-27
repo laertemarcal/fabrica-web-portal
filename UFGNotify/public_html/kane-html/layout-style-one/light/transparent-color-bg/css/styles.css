@@ -647,7 +647,7 @@ header .intro-section .buttons {
     padding: 0px 0px 0px 0px;
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
-    opacity: 0.5;
+    opacity: 0.75;
 }
 
 .download .store-badge:hover {
