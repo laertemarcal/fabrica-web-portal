@@ -10,8 +10,8 @@ DEEP COLOR CODE: #005885
 
 .color-overlay {
     /*background: rgba(0, 142, 214, 0.0);*/
-    background: rgba(42, 100, 150, 0.25);
-    /*background: rgba(0, 0, 0, 0.3);*/
+    /* background: rgba(42, 100, 150, 0.1); */
+    background: rgba(0, 0, 0, 0.2);
     /*background: rgba(51, 51, 51, 0.2);*/
 }
 
