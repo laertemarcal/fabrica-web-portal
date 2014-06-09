@@ -644,15 +644,8 @@ header .intro-section .buttons {
 }
 
 .download .store-badge {
-    padding: 0px 0px 0px 0px;
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
-    opacity: 0.75;
-}
-
-.download .store-badge:hover {
-    padding: 0px 150px 0px 150px;
-    opacity: 1;
 }
 
 .download h2 {
