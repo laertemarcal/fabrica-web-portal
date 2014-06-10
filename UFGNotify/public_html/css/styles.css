@@ -602,7 +602,7 @@ header .intro-section .buttons {
 -----------------------------------------*/
 
 .download {
-    background: url('../images/ufg-micos.jpg') no-repeat center fixed;
+    background: url('../images/ufg-micos.jpg') no-repeat top fixed;
     -webkit-background-size: cover;
     background-size: cover;
     color: #ffffff;
